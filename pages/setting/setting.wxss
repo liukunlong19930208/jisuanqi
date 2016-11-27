@@ -1,0 +1,7 @@
+.b{
+  height:400rpx;
+  background-size:cover;
+}
+.a{
+    height:400rpx;
+}

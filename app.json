@@ -1,0 +1,41 @@
+{
+"pages": [
+    "pages/index/index",
+    "pages/setting/setting"
+],
+"window": {
+  "navigationBarBackgroundColor": "#c81634",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "老牛逼计算器",
+  "backgroundColor": "#000000",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+},
+"networkTimeout":{
+ "request": 2000,
+ "connectSockt": 2000,
+ "uploadFile": 10000,
+ "downloadFile": 20000
+},
+"tabBar": {
+  
+  "list": [{
+    "pagePath": "pages/index/index",
+    "text": "计算器",
+    "iconPath":"images/icon_component.png",
+    "selectedIconPath":"images/icon_component_HL.png"
+  }, {
+    "pagePath": "pages/setting/setting",
+    "text": "设置",
+     "iconPath":"images/icon_component.png",
+    "selectedIconPath":"images/icon_component_HL.png"
+  }
+  ],
+  "color": "#000000",
+  "selectedColor": "#c81623",
+  "backgroundColor":"#dddddd"
+}
+}
+
+
+

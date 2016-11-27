@@ -1,0 +1,32 @@
+.screen{
+    background:#202020;
+    height:300rpx;
+    position:relative;
+}
+.screen .result{
+     position:absolute;
+     right:30rpx;
+     bottom:30rpx;
+     font-size:40px;
+     color:#fff;
+}
+.control{
+     background:#f98c12;
+     overflow:hidden;
+      
+}
+.control .button{
+    width:25%;
+    height:187rpx;
+    float:left;
+    border-right:1px solid #000;
+    border-bottom:1px solid #000;
+    box-sizing:border-box;
+    text-align:center;
+    line-height:187rpx;
+
+}
+.control .w{
+    width:50%;
+
+}

@@ -1,0 +1,24 @@
+<view class="screen">
+  <view class="result">{{result}}</view>
+</view>
+<view class="control">
+   <view class="button"bindtap="back">AC</view>
+   <view class="button">+/-</view>
+   <view class="button">%</view>
+   <view class="button"data-value="/" bindtap="setoprator">/</view>
+   <view class="button"data-value="7" bindtap="tap">7</view>
+   <view class="button"data-value="8" bindtap="tap">8</view>
+   <view class="button"data-value="9" bindtap="tap">9</view>
+   <view class="button"data-value="*" bindtap="setoprator">*</view>
+   <view class="button"data-value="4" bindtap="tap">4</view>
+   <view class="button"data-value="5" bindtap="tap">5</view>
+   <view class="button"data-value="6" bindtap="tap">6</view>
+   <view class="button"data-value="-" bindtap="setoprator">-</view>
+   <view class="button"data-value="1" bindtap="tap">1</view> 
+   <view class="button"data-value="2" bindtap="tap">2</view>
+   <view class="button"data-value="3" bindtap="tap">3</view>
+   <view class="button"data-value="+" bindtap="setoprator">+</view>
+   <view class="button w"data-value="0" bindtap="tap">0</view>
+   <view class="button">.</view>
+   <view class="button" bindtap="cal">=</view>           
+</view>
